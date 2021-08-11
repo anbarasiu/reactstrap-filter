@@ -1,0 +1,149 @@
+.dropdownToggle {
+  background-color: #ffffff;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 28px;
+  padding: 4px 8px 4px 8px;
+  border-color: white;
+  width: 100%;
+}
+
+.filterIcon {
+  font-size: x-small;
+  padding-right: 8px;
+}
+
+.dropdownMenu {
+  padding-bottom: 0px;
+  min-width: 15rem;
+}
+
+.dropdownItem {
+  display: flex;
+  padding: 8px 8px 8px 8px;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 28px;
+  padding: 4px 8px 4px 8px;
+  border-color: white;
+  margin-right: 0px;
+}
+
+.filtersHeading {
+  color: rgb(60, 66, 87);
+  display: inline;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.applyFilterBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 28px;
+  background: #2432cc;
+  border-color: #2432cc;
+  color: white;
+  padding: 4px 8px 4px 8px;
+  &:hover {
+    background-color: #2432cc;
+    color: white;
+    border-color: #2432cc !important;
+  }
+}
+
+.applyFilterBtn:hover,
+.button:hover,
+.exportBtn:hover,
+.dropdownToggle:hover {
+  border-color: white;
+}
+
+.checkboxContainer {
+  padding: 8px 8px 8px 8px;
+  color: #3c4257;
+  font-weight: 400;
+  font-size: 14px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.datepickerContainer {
+  background-color: #f7fafc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline-flex;
+  width: -webkit-fill-available;
+  justify-content: space-around;
+  padding: 12px 8px 12px 8px;
+}
+
+.exportBtn {
+  background-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 28px;
+  padding: 4px 8px 4px 8px;
+  border-color: white;
+}
+
+.numberDropdown {
+  background-color: #f7fafc;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.checkbox {
+  margin-left: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: inline-flex;
+}
+
+.input {
+  margin-left: 0px;
+  height: 24px;
+  width: 80px;
+  margin-right: 8px;
+}
+
+.subOption {
+  color: rgb(60, 66, 87);
+  cursor: pointer;
+  display: inline;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.label {
+  margin-left: 20px;
+}
+
+.divider {
+  margin: 0px 0px 0px 0px;
+}
